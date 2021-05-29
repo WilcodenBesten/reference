@@ -1,0 +1,15 @@
+[user]
+	name = Wilco den Besten
+	email = # TODO: fill
+
+[core]
+	editor = subl -n -w # Will launch Sublime Text 3 (subl) in a new window (-n), and the command line will wait (-w) until the commit message is saved and closed.
+
+[alias]
+	s = status
+	d = diff
+	ci = commit
+	co = checkout
+	a = add
+	pulls = !git pull $1 && git submodule update --init --recursive
+	res = restore --staged
