@@ -13,3 +13,4 @@
 	a = add
 	pulls = !git pull $1 && git submodule update --init --recursive
 	res = restore --staged
+	sup = !git submodule update --init --recursive
