@@ -11,7 +11,7 @@
 	ci = commit
 	co = checkout
 	a = add
-	pulls = !git pull $1 && git submodule update --init --recursive
+	pulls = !git pull $1 && git submodule sync --recursive && git submodule update --init --recursive
 	res = restore --staged
-	sup = !git submodule update --init --recursive
+	sup = !git submodule sync --recursive && git submodule update --init --recursive
 	amend = !git commit --amend --reset-author
