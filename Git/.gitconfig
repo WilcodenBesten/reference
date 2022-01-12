@@ -15,3 +15,4 @@
 	res = restore --staged
 	sup = !git submodule sync --recursive && git submodule update --init --recursive
 	amend = !git commit --amend --reset-author
+	his = log --pretty=format:\"%h - %s [%an] %d\"
