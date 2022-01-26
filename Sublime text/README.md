@@ -7,4 +7,4 @@ Go to `Preferences –> Settings` and add:
 "hot_exit": false,
 ````
 ## Plugins
-[ANSI escape codes color highlighting](Syntax https://github.com/aziz/SublimeANSI)
+[ANSI escape codes color highlighting](https://github.com/aziz/SublimeANSI)
