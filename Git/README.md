@@ -1,5 +1,8 @@
 # Git
 
+## Useful commands
+[ohshitgit](https://ohshitgit.com/)
+
 ## Better difftool under Linux
 [Meld](https://meldmerge.org/)
 
