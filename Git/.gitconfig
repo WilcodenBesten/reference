@@ -3,7 +3,7 @@
 	email = # TODO: fill
 
 [core]
-	editor = subl -n -w # Will launch Sublime Text 3 (subl) in a new window (-n), and the command line will wait (-w) until the commit message is saved and closed.
+	editor = code -w # Will launch Visual Studio Code (code) and the command line will wait (-w) until the commit message is saved and closed.
 
 [alias]
 	s = status
@@ -17,3 +17,4 @@
 	amend = !git commit --amend --reset-author
 	his = log --pretty=format:\"%h - %s [%an] %d\"
 	fauthors = shortlog -n -s --
+	lg = log --color --graph --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset'
